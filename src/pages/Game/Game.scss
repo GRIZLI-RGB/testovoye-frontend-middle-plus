@@ -1,0 +1,18 @@
+.game {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 30px;
+	&__back {
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	&__title {
+		text-align: center;
+		font-size: 48px;
+		color: #ffffff;
+	}
+}

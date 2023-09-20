@@ -1,0 +1,14 @@
+.button {
+	background-color: #0ca7e0;
+	padding: 12px 24px;
+	border-radius: 6px;
+	transition: background-color 0.25s;
+	&--secondary {
+		padding: 10px 24px;
+		background-color: transparent;
+		border: 2px solid #0ca7e0;
+	}
+	&:hover {
+		background-color: #42a5cb;
+	}
+}
